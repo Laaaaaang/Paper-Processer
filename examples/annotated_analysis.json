@@ -1,0 +1,56 @@
+{
+  "chinese_summary": "本文研究检索增强流程是否能提升科学论断验证，并比较了 dense retrieval、hybrid retrieval 与 reasoning-augmented verifier。结果显示，检索质量显著限制下游验证效果，而推理阶段能够减少误报，但对证据不完整仍然敏感。",
+  "english_abstract_snapshot": "The paper compares multiple retrieval strategies for scientific claim verification. Its core argument is that better retrieval is a prerequisite for stronger verification, while reasoning mainly reduces false positives rather than fixing missing evidence.",
+  "core_question": "How much can retrieval quality and an added reasoning stage improve scientific claim verification on benchmark datasets?",
+  "methods": [
+    "Compare dense retrieval, hybrid retrieval, and a reasoning-augmented verifier on three scientific claim-verification benchmarks.",
+    "Measure downstream verification quality and analyze false-positive behavior under different evidence conditions."
+  ],
+  "key_findings": [
+    "Hybrid retrieval performs better than dense retrieval across all reported datasets.",
+    "The reasoning stage cuts false positives, but gains remain bottlenecked by incomplete evidence retrieval.",
+    "Generalization is weaker in low-resource scientific domains."
+  ],
+  "strengths": [
+    "Clear ablation between retrieval quality and verification quality.",
+    "Findings are tied to concrete benchmark comparisons instead of only qualitative claims."
+  ],
+  "limitations": [
+    "The evidence packet suggests weak transfer to low-resource domains.",
+    "The reasoning stage cannot fully compensate for missing retrieval coverage."
+  ],
+  "useful_quotes": [
+    {
+      "quote": "Hybrid retrieval outperformed dense retrieval on all three datasets.",
+      "page_label": "4",
+      "why_it_matters": "This is the cleanest summary of the retrieval comparison."
+    },
+    {
+      "quote": "The verifier reduced false positives by 11.2% relative to the retrieval-only baseline.",
+      "page_label": "7",
+      "why_it_matters": "This quantifies the benefit of adding reasoning after retrieval."
+    }
+  ],
+  "my_connections": [
+    "Useful reference for building paper-understanding pipelines where retrieval is a hidden bottleneck.",
+    "Could be compared with any future Codex workflow that reasons over Zotero annotations plus extracted text."
+  ],
+  "next_actions": [
+    "Check whether the paper reports retriever training data composition in more detail.",
+    "Compare its hybrid retrieval setup with other literature-note candidates in the same Zotero collection."
+  ],
+  "suggested_tags": [
+    "claim-verification",
+    "retrieval-augmented-generation",
+    "hybrid-retrieval",
+    "scientific-reasoning"
+  ],
+  "key_concepts": [
+    "Dense Retrieval",
+    "Hybrid Retrieval",
+    "Claim Verification",
+    "Reasoning-Augmented Verifier",
+    "False Positive Reduction",
+    "Evidence Retrieval"
+  ]
+}

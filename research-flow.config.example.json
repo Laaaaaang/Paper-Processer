@@ -1,0 +1,20 @@
+{
+  "zotero_user_id": "your-zotero-user-id",
+  "zotero_api_key": "your-zotero-api-key",
+  "zotero_library_type": "users",
+  "zotero_connector_url": "http://127.0.0.1:23119",
+  "zotero_desktop_target_id": "",
+  "zotero_collection_key": "",
+  "llm_provider": "openai",
+  "openai_api_key": "your-openai-api-key",
+  "openai_model": "gpt-5.4",
+  "gemini_api_key": "AIzaSyCOx8J7uYm_Eh-vvyTf6SjGK0g3O3-EztA",
+  "gemini_model": "gemini-2.5-flash",
+  "obsidian_vault_path": "/absolute/path/to/your/Obsidian vault",
+  "obsidian_rest_url": "",
+  "obsidian_rest_api_key": "",
+  "packet_dir": "",
+  "note_subdir": "Literature",
+  "default_item_type": "journalArticle",
+  "default_status": "inbox"
+}

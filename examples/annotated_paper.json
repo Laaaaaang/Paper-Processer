@@ -1,0 +1,37 @@
+{
+  "citekey": "smith2025retrieval",
+  "zotero_item_key": "ABCD1234",
+  "title": "Retrieval-Augmented Reasoning for Scientific Claim Verification",
+  "authors": [
+    "Jane Smith",
+    "Wei Chen",
+    "Amina Hassan"
+  ],
+  "year": 2025,
+  "journal": "Transactions of Computational Research",
+  "doi": "10.1234/tcr.2025.118",
+  "url": "https://example.org/papers/retrieval-augmented-reasoning",
+  "abstract": "We study whether retrieval-augmented pipelines improve scientific claim verification. We compare dense retrieval, hybrid retrieval, and a reasoning-augmented verifier across three benchmark datasets and show that retrieval quality strongly constrains downstream verification accuracy.",
+  "annotation_text": "Claim verification improves when the retriever is tuned on in-domain scientific text. The reasoning stage reduces false positives but remains sensitive to incomplete evidence. Authors note limited generalization to low-resource domains.",
+  "pdf_path": "/Users/lang/Library/Mobile Documents/iCloud~md~obsidian/Documents/ResearchVault/PDFs/smith2025retrieval.pdf",
+  "tags": [
+    "claim-verification",
+    "retrieval",
+    "literature-note"
+  ],
+  "status": "inbox",
+  "annotations": [
+    {
+      "text": "Hybrid retrieval outperformed dense retrieval on all three datasets.",
+      "comment": "Important for comparing baseline design choices.",
+      "page_label": "4",
+      "color": "yellow"
+    },
+    {
+      "text": "The verifier reduced false positives by 11.2% relative to the retrieval-only baseline.",
+      "comment": "Likely useful for the findings section.",
+      "page_label": "7",
+      "color": "green"
+    }
+  ]
+}

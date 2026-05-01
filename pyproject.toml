@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "research-flow"
+version = "0.1.0"
+description = "Thin glue for a Zotero -> Codex -> Obsidian literature-note workflow."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Codex" }
+]
+
+[project.scripts]
+research-flow = "research_flow.cli:main"
+
+[tool.setuptools]
+packages = ["research_flow"]

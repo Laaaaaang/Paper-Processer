@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+generated/
+imports/
+.obsidian/
+research-flow.config.json
+*.paper.json
+*.analysis.json
+*.paper.skim.json
+*.paper.deep-read.json
+*.paper.discussion.json
+.DS_Store

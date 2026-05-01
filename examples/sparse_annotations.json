@@ -1,0 +1,20 @@
+{
+  "citekey": "garcia2024multimodal",
+  "zotero_item_key": "EFGH5678",
+  "title": "Multimodal Prompt Routing for Technical Document QA",
+  "authors": [
+    "Luis Garcia",
+    "Nadia Patel"
+  ],
+  "year": 2024,
+  "journal": "Proceedings of the Workshop on Scientific LLM Systems",
+  "doi": "10.4321/wsllm.2024.22",
+  "url": "https://example.org/papers/multimodal-prompt-routing",
+  "abstract": "This paper introduces a prompt-routing strategy that switches between OCR-aware and text-only question answering paths for technical manuals. The method improves response quality in documents that mix formulas, diagrams, and prose.",
+  "annotation_text": "Interesting because routing is simple but practical. Need to compare with document triage pipelines.",
+  "tags": [
+    "multimodal",
+    "qa"
+  ],
+  "status": "review"
+}

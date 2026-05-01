@@ -1,0 +1,20 @@
+{
+  "citekey": "lee2023survey",
+  "zotero_item_key": "IJKL9012",
+  "title": "A Survey of Foundation Models for Scholarly Discovery",
+  "authors": [
+    "Mina Lee",
+    "Tom Becker",
+    "Qian Xu"
+  ],
+  "year": 2023,
+  "journal": "Journal of Digital Scholarship",
+  "doi": "10.5678/jds.2023.91",
+  "url": "https://example.org/papers/foundation-models-survey",
+  "abstract": "The survey reviews the use of foundation models in citation recommendation, semantic scholar search, summarization, and automated literature review. It identifies gaps in evaluation standards and domain-specific benchmarking.",
+  "tags": [
+    "survey",
+    "scholarly-discovery"
+  ],
+  "status": "backlog"
+}
